@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "oli-testing-nether-terraform-state"
-    key    = "nether"
+    bucket = "nether-infrastructure"
+    key    = "terraform/state"
     region = "af-south-1"
   }
 }
